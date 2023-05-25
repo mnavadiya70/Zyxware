@@ -1,4 +1,4 @@
-import Logger from "../src/index";
+import Logger from "../src/Logger";
 describe("Logger", () => {
   console.log = jest.fn();
   const logger = new Logger();
